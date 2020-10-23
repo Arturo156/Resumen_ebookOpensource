@@ -1,5 +1,25 @@
 # Resumen EbookOpensource
 
+#    Tecnológico Nacional de México
+#   Instituto Tecnológico de Tijuana
+#        Subdirección Académica
+
+# Departamento de Sistemas y Computación
+# Ingeniería en Sistemas Computacionales
+# Lenguajes de interfaz 
+
+# Practica Bloque: 2 📝
+# Objetivo: Resumen capitulo 1 y capitulo 2.
+
+
+# 📝 Madueño Morales Arturo Ernesto - 17210592
+   
+
+# Profesor: MC. René Solis Reyes
+# Semestre sep - ene 2020
+
+
+
 # Capitulo 1
 **1.1.1. Características generales de la arquitectura ARM**
 
@@ -130,6 +150,9 @@ Este tema ya lo vimos en clase, explica como compilar el progama .s y crear el e
 
 **2.1.1. Modos de direccionamiento del ARM** En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str. El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones. En este caso la arquitectura nos fuerza a que trabajemos de un modo determinado: primero cargamos los registros desde memoria, luego procesamos el valor de estos registros con el amplio abanico de instrucciones del ARM, para finalmente volcar los resultados desde registros a memoria. 
 
+![](imagenes/capitulo2/figura_1.png)
+
+
 **Direccionamiento inmediato.** El operando fuente es una constante, formando parte de la instrucción.
 ```
 mov r0, # 1
@@ -169,11 +192,11 @@ tamaño y rango de representación.
 
 **Punteros.** Un puntero siempre ocupa 32 bits y contiene una dirección de memoria. En ensamblador no tienen tanta utilidad como en C, ya que disponemos de registros de sobra y es más costoso acceder a las variables a través de los punteros que directamente. 
 
--a-
+![](imagenes/capitulo2/figura_2.png)
 
 **Vectores.** Todos los elementos de un vector se almacenan en un único bloque de memoria a partir de una dirección determinada. Los diferentes elementos se almacenan en posiciones consecutivas, de manera que el elemento i está entre los i-1 e i+1.
 
--a- 
+![](imagenes/capitulo2/figura_3.png)
 
 **Matrices bidimensionales.** Una matriz bidimensional de N×M elementos se almacena en un único bloque de memoria. Interpretaremos una matriz de N×M como una matriz con N filas de M elementos cada una. Si cada elemento de la matriz ocupa B bytes, la matriz ocupará un bloque de M ×N ×B bytes.
 
@@ -212,7 +235,7 @@ bx lr
 
 **listado 2.1**
 
--a-
+![](imagenes/capitulo2/figura_4.png)
 
 **2.1.5. Compilación a ensamblador**
 Para acabar la teoría veamos cómo trabaja un compilador de C real. Normalmente los compiladores crean código compilado (archivos .o) en un único paso. En el caso de gcc este proceso se hace en dos fases: en una primera se pasa de C a ensamblador, y en una segunda de ensambladador a código compilado.
@@ -232,4 +255,5 @@ printf (" La suma es %d \n" , suma );
 }
 ```
 
+![](imagenes/capitulo2/figura_5.png)
 
