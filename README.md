@@ -1,4 +1,4 @@
-# Resumen EbookOpensource
+![](imagenes/portadatcnm.png)
 
 #    Tecnológico Nacional de México
 #   Instituto Tecnológico de Tijuana
@@ -19,8 +19,10 @@
 # Semestre sep - ene 2020
 
 
+![](https://images.cooltext.com/5474837.png)
+<a href="http://es.cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Generador de Logotipos y Gráficos." border="0" /></a>
 
-# Capitulo 1
+
 **1.1.1. Características generales de la arquitectura ARM**
 
 En este primer subtema conocemos ARM que es una arquitectura RISC de 32 bits, salvo la versión del core ARMv8- A que es mixta 32/64 bits. 
@@ -146,7 +148,8 @@ Este tema ya lo vimos en clase, explica como compilar el progama .s y crear el e
 ![](imagenes/capitulo1/figura_17.png)
 ![](imagenes/capitulo1/figura_18.png)
 
-# Capitulo 2
+![](https://images.cooltext.com/5474838.png)
+<a href="http://es.cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Generador de Logotipos y Gráficos." border="0" /></a>
 
 **2.1.1. Modos de direccionamiento del ARM** En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str. El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones. En este caso la arquitectura nos fuerza a que trabajemos de un modo determinado: primero cargamos los registros desde memoria, luego procesamos el valor de estos registros con el amplio abanico de instrucciones del ARM, para finalmente volcar los resultados desde registros a memoria. 
 
